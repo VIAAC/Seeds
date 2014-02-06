@@ -4,7 +4,7 @@ Adhocracy: Tool to easily create structured organizations from multiple social n
 
 Social Networks: Graph social networks, associate members with certain tags or semantics, and visualize them according to those characteristics.  Transition strategy can then implement the strategies described in "Controlling Complex Networks" to influence the culture in favor of prosocial transition.
 
-"Resource-Based" Economics: Online database of resources and data entry and editing tools for crowdsourced entry.
+"Resource-Based"/Natural Economics: Online database of resources and data entry and editing tools for crowdsourced entry.
 **In development (by Ryan Salisbury): RDb.descriptive--Based on Django.
 Tools for analyzing that data and easy analysis, forecasting, and decision-making.
 **In planning (by Ryan Salisbury): RDb.operative--Based on NumPy/Pandas.
@@ -13,3 +13,9 @@ VIAAC transition model: A "VIAAC kernel" that combines the above technologies in
 
 
 Free products: There needs to be a "Github of hardware", that will function as an easy way for open-source hardware to be created.  There has been quite a bit of discussion about it, and Thingiverse is almost there already, so it's possible that something like this exists or is in planning or development now.
+
+
+
+Additional notes
+=================
+6 February 2014: Ryan S. - I don't think there's any point in trying to create alternative anything to existing tools anymore.  Network effects greatly outweigh any benefits that you could bring to the table, and those can often be gained in ways other than starting a new project.  One of the biggest problems with the PSA movement is duplication of effort and trying to hard to fight against the establishment.  Tools should, as much as possible, use existing networks of users, because a good enough tool that a huge number of people use is far better than a perfect tool that nobody uses.
