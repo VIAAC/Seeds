@@ -1,0 +1,9 @@
+VIAAC
+
+
+Mission:
+	The basic process in the growth of a group of people into VIAAC can be described most basically as converting products into services, using the profits and abilities of those services to purchase capital and convert external supply chains to internal ones.  This means that, for every cost to the VIAAC that is paid to an external company, it is targeted for internalization.  Products being targeted to be converted to services are those with high capital costs and a low use-time per person, such as cars and kitchens.  Costs with a large number of dependencies, such as water and electricity, are targeted earliest, even if other costs are quantitatively higher.  This is intended to increase attractiveness to potential members, as well as increase scalability.  
+	These services and cost eliminations ("subsystems") are fulfilled by distinct organizations which are members of the VIAAC.  This is done to allow existing organizations and businesses to become a member of the VIAAC smoothly.  The implication is that the VIAAC organization (VO) itself will essentially serve as a supplier and consultant for the subsystems.  It is unlikely that the VIAAC will grow through market acquisition, but it does remain a possibility.  The ideal is to attract organizations to join based on the merits of the low- or no-cost services provided by having membership in the VIAAC.  The VO will also serve as holders of intellectual property with open-access, copyleft, or very low-cost licenses, which will be composed of product designs, business plans, organizational structures, inventory data, and member data.
+	The VO should be a nonprofit (501(c) in the U.S.) organization or other equivalent tax-exempt organization.
+Purpose:
+To bootstrap a self-sufficient gift economy which provides a high quality of life to its members.

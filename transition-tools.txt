@@ -1,0 +1,15 @@
+Transition tools:
+
+Adhocracy: Tool to easily create structured organizations from multiple social networks (esp. Facebook and LinkedIn), that can work with collaborative work environments like Github.  It should have an API so that others can write plugins that communicate between this tool and other websites.  It should later include tools that can automatically create legal NGO structures according to crowdsourced entry of laws and regulations.  In particular, complex and unique organizations should be constructable programmatically, without the need to consult human legal assistance.
+
+Social Networks: Graph social networks, associate members with certain tags or semantics, and visualize them according to those characteristics.  Transition strategy can then implement the strategies described in "Controlling Complex Networks" to influence the culture in favor of prosocial transition.
+
+"Resource-Based" Economics: Online database of resources and data entry and editing tools for crowdsourced entry.
+**In development (by Ryan Salisbury): RDb.descriptive--Based on Django.
+Tools for analyzing that data and easy analysis, forecasting, and decision-making.
+**In planning (by Ryan Salisbury): RDb.operative--Based on NumPy/Pandas.
+
+VIAAC transition model: A "VIAAC kernel" that combines the above technologies into an integrated package that would function as the "GNU/Linux of communities".  
+
+
+Free products: There needs to be a "Github of hardware", that will function as an easy way for open-source hardware to be created.  There has been quite a bit of discussion about it, and Thingiverse is almost there already, so it's possible that something like this exists or is in planning or development now.
