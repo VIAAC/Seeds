@@ -1,18 +1,27 @@
 Transition tools:
 
-Adhocracy: Tool to easily create structured organizations from multiple social networks (esp. Facebook and LinkedIn), that can work with collaborative work environments like Github.  It should have an API so that others can write plugins that communicate between this tool and other websites.  It should later include tools that can automatically create legal NGO structures according to crowdsourced entry of laws and regulations.  In particular, complex and unique organizations should be constructable programmatically, without the need to consult human legal assistance.
+Adhocracy: Tool to easily create structured organizations from multiple social networks (esp. Facebook and LinkedIn), that can work with collaborative work environments like Github.  It should have an API so that others can write plugins that communicate between this tool and other websites.  It should later include tools that can automatically create legal NGO structures according to crowdsourced entry of laws and regulations.  In particular, complex and unique organizations should be constructable programmatically, without the need to consult human legal assistance.  This means that open-source business plans should be introduced as an additional transition step.
+**Implemented: Tools for running an NGO - NGO-in-a-box http://base.ngoinabox.org/
+**Implemented: Manage multiple social networks in a single inbox - GrabInbox http://www.grabinbox.com/
 
-Social Networks: Graph social networks, associate members with certain tags or semantics, and visualize them according to those characteristics.  Transition strategy can then implement the strategies described in "Controlling Complex Networks" to influence the culture in favor of prosocial transition.
-
+Social Networks: Graph social networks, associate members with certain tags or semantics, and visualize them according to those characteristics.  This can be used in a multi-level sorting scheme to find people to work on projects with.  TimeRepublik or other time-banking tools can ease the disparity between collaborative work and wage labor worker culture.  Transition strategies can then implement the strategies described in "Controlling Complex Networks" to influence the culture in favor of prosocial transition.
+**Implemented: Social Relationship Management (SRM) -- http://multisocialsuite.com/pages/SRM.aspx
+**Implemented: "Customer" finding: Targeting -- http://multisocialsuite.com/pages/Targeting.aspx
+	*Note: The above two are proprietary.
+	
 "Resource-Based"/Natural Economics: Online database of resources and data entry and editing tools for crowdsourced entry.
 **In development (by Ryan Salisbury): RDb.descriptive--Based on Django.
 Tools for analyzing that data and easy analysis, forecasting, and decision-making.
 **In planning (by Ryan Salisbury): RDb.operative--Based on NumPy/Pandas.
 
-VIAAC transition model: A "VIAAC kernel" that combines the above technologies into an integrated package that would function as the "GNU/Linux of communities".  
+VIAAC transition model: A "VIAAC kernel" that combines the above technologies into an integrated package that would function as the "GNU/Linux of communities".  It should be able to guide the organization of a small group into an inter-sufficient member of the global VIAAC community, and include its early operational tools out of the box, with a dedicated repository for those needed by more advanced communities.  There should also be a communication network included that will allow new VIAACs to request assistance from established ones.
 
 
 Free products: There needs to be a "Github of hardware", that will function as an easy way for open-source hardware to be created.  There has been quite a bit of discussion about it, and Thingiverse is almost there already, so it's possible that something like this exists or is in planning or development now.
+**Implemented for electrical engineering: SnapEDA http://www.snapeda.com/ , Upverter https://upverter.com/
+**Should be implemented for physibles (3D printable/millable objects).
+Additionally, there should be an ecosystem of free products that VIAACs can manufacture themselves without using intellectual property.
+**Implemented: Open-source ecology http://opensourceecology.org/ Thingiverse http://www.thingiverse.com/
 
 
 
