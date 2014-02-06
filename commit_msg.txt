@@ -1,0 +1,4 @@
+6 February 2014: Creation; Transition tools, VIAAC business model.
+
+Created the repo, added my transition tools and VIAAC business model docs.
+
