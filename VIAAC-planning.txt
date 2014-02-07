@@ -1,0 +1,56 @@
+Introduction
+======================
+This document is for planning the startup and operation of a VIAAC, and noting problems in actual implementation.
+
+
+Bootstrapping a VIAAC
+======================
+How do we start up a VIAAC, when the idea is untested and nobody is certain that it will work?  How do we make it robust, and ensure that members won't back out?
+Using a conditional contract, we can set a predetermined set of criteria to trigger the "activation" of the VIAAC from established businesses or other organizations.  For example, a restaurant and farm could agree to allow their inputs and outputs to flow freely between one another on the condition that there is a third party that can take care of transportation.  Perhaps the third party transportation will agree to enter the contract under the condition of the receiving biofuel feedstock from the farm's wastes, or perhaps the load is light enough that they can take it along existing routes without needing any additional inputs.  Nothing is done, however, until the contract can enter an operational state.
+Surpluses do not go to the signatories, but instead are injected elsewhere in order to move towards a mature (M-state) VIAAC.  This would be a VIAAC that has substantial influence over the surrounding or enclosed community, and is able to provide a significant portion of its resources.  A VIAAC will internally manage its resources uses computational methods rather than prices, and should attempt to minimize its intake of revenue.  Tourism revenue should be excluded from analyses of VIAAC progress, and this should be expected to be the main source of revenue in the long run.  This should also encourage the community to maintain cleanliness, culture, and surpluses for guests.
+
+
+State graph:
+
+(I)<--economic failure|target X achieved-->(M)<--economic failure|networked autarky-->(PS)
+
+
+Allocation in a VIAAC
+======================
+Allocation in a VIAAC can be done any way the members agree to do it (as long as they are intercompatible), but we recommend implementing techniques from natural economics.  The goal of natural economics is not to assign exchange value opinions to economic activity, but to physically analyze it, audit it, and ensure it stays within a safe boundary (i.e. not destroying the planet).  The conception of what makes activity valuable is entirely up to the community itself; As radical capitalists claim, value is subjective, but NE *avoids* attempting to base allocation on this subjective value.
+
+Emergy/Exergy Analysis
+-------------------------
+Emergy analysis (EMA) and exergy analysis (EXA) are valuable tools for assessing the relative costs of different resources and processes.  Without being subject to the distortions of use value or exchange value, costs are accounted for accurately, and economic outputs can be balanced against exergetic inputs.  They are highly recommended for all VIAACs as the most basic tool, both because of their well-established place in ecological and economic literature, and because of the network effects gained from multiple communities sharing EMA/EXA data.
+
+Direct Resource Tracking
+-------------------------
+Direct resource tracking (DRT), similar to the socialist concept of materials balance planning, is a shared database or ledger of physical resource accounts, with particular emphasis on inputs.  It is recommended that the database contain accounts of both elements and ores/compounds, with both mass and exergy values measured.  The mass quantity is valuable for stationary analysis, while exergy is better for dynamic analysis.  Recent literature has shown that advanced technology is much more subject to specific resources to maintain their performance.  DRT should be used to examine dependencies between products, components, materials, and resources to ensure that critical resources are not being needlessly squandered.
+
+Synchronous Production
+-------------------------
+A VIAAC should have a clock, whose period is set according to the degree of responsiveness or strategy the community wishes the economy to exhibit.  Changes in production output will occur on clock ticks, to allow a wider range of allocation schemes.  The basic structure to couple with this is the request queue, which is a central portal for allocation requests to enter a queue each clock cycle.  At the end of the cycle, any optional operations are applied to the queue (e.g. reordering, dropping, modifying) and the requests are fulfilled in order.  The fulfilled requests should be constrained within the known budget (of exergy and materials) for the cycle.  If the request is for something that takes longer than one cycle to produce, it should be flagged for discussion rather than fulfilled immediately.  This will ensure that no one is unilaterally making large-scale decisions that put a drain on resources.
+
+Priority Theory of Value
+-------------------------
+Resources should not be valued according to a continuous total order, but instead according to a partial order in a closed, discrete semimodule.  Communities should create a set of criteria they agree upon to represent their long-term economic goals.  For example, one that wishes to stimulate creativity should give a high score to resources with a large number of forward dependencies (resources which depend on them, e.g. music depends on musical equipment), or one that wishes to conserve nature should give a high score to natural resources and circular dependencies.  This set of criteria will be mapped to the DRT base/ledger to create a priority or "PRIO" for each resource.  
+
+
+
+Challenges for VIAACs
+======================
+Heterogeneous local laws make standardized structures harder to create, so standards will have to be very generalized.
+Finding the intersection of the right qualities in members, willingness and ability, is difficult.
+
+
+Original email (Ryan S. to Rob C.)
+===================================
+A viable VIAAC structure is designed (i.e. minimum member performance specifications, resource flows, cost reduction targets), and contract entrants agree that if within W time, all required organizations are signatories to the contract, a nonprofit organization called "VO [#]" will be created.  This NPO will perform logistics management and consulting for all signatories according to the viable structure design.  It will begin with the state designation "Initial" (I)
+A cost reduction target of X will be the goal of the VIAAC, and if exceeded, Y% of the difference will be used in the growth of the VO.  If the VO holds contracts with Z% of organizations in the metropolitan area, it will be considered in a mature (M) state, and will provide its revenue to a nearby VO.  Multiple VOs in an M state will remain in that state until the connected VOs have no incoming or outgoing revenue.
+Once that condition is satisfied, they will be considered in a "post-scarcity" (PS) state.  A VIAAC in a PS state provides its services to members for free, using NE-based design principles.  Achieving a PS state is the long-term goal of the VO.
+[The VO may use its revenue to invest in organizations or negotiate mergers/buy organizations to further the cause of the VIAAC [1]].
+
+
+[1] http://www.avvo.com/legal-answers/can-a-non-profit-organization-invest-it-s-funds-in-351932.html
+
+This may require some sort of insurance or collateral for the signatories, and there should probably be some sort of exit provision.
