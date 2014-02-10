@@ -3,3 +3,10 @@
 Created a new document for planning the implementation of a VIAAC.
 
 
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   VIAAC-planning.txt
+#	modified:   commit_msg.txt
+#
