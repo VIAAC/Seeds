@@ -1,16 +1,17 @@
 Introduction
 ======================
-This document is for planning the startup and operation of a VIAAC, and noting problems in actual implementation.
+	This document is for planning the startup and operation of a VIAAC, and noting problems in actual implementation.
 
 
 Bootstrapping a VIAAC
 ======================
-How do we start up a VIAAC, when the idea is untested and nobody is certain that it will work?  How do we make it robust, and ensure that members won't back out?
+	How do we start up a VIAAC, when the idea is untested and nobody is certain that it will work?  How do we make it robust, and ensure that members won't back out?
 Using a conditional contract, we can set a predetermined set of criteria to trigger the "activation" of the VIAAC from established businesses or other organizations.  For example, a restaurant and farm could agree to allow their inputs and outputs to flow freely between one another on the condition that there is a third party that can take care of transportation.  Perhaps the third party transportation will agree to enter the contract under the condition of the receiving biofuel feedstock from the farm's wastes, or perhaps the load is light enough that they can take it along existing routes without needing any additional inputs.  Nothing is done, however, until the contract can enter an operational state.
 
 VIAAC Function
 ======================
-Surpluses do not go to the signatories, but instead are injected into target external organizations or internal processes/capital in order to move towards a mature (M-state) VIAAC.  This would be a VIAAC that has substantial influence over the surrounding or enclosed community, and is able to provide a significant portion of its resources.  A VIAAC will internally manage its resources uses computational methods rather than prices, and should attempt to minimize its intake of revenue.  Tourism revenue should be excluded from analyses of VIAAC progress, and this should be expected to be the main source of revenue in the long run.  This should also encourage the community to maintain cleanliness, culture, and surpluses for guests.
+	Surpluses do not go to the signatories, but instead are injected into target external organizations or internal processes/capital in order to move towards a mature (M-state) VIAAC.  This would be a VIAAC that has substantial influence over the surrounding or enclosed community, and is able to provide a significant portion of its resources.  A VIAAC will internally manage its resources uses computational methods rather than prices, and should attempt to minimize its intake of revenue.  Tourism revenue should be excluded from analyses of VIAAC progress, and this should be expected to be the main source of revenue in the long run.  This should also encourage the community to maintain cleanliness, culture, and surpluses for guests.
+	Where a typical business aims for increasing profit, a VIAAC should aim for decreasing cost.  At first, the targets should be the individual members' largest costs which can be immediately decreased or removed.  Experimentation or good data from other intentional communities will be needed to determine the best order through which to bootstrap a mature VIAAC.
 
 State graph:
 
@@ -19,7 +20,7 @@ State graph:
 
 Allocation in a VIAAC
 ======================
-Allocation in a VIAAC can be done any way the members agree to do it (as long as they are intercompatible), but we recommend implementing techniques from natural economics.  The goal of natural economics is not to assign exchange value opinions to economic activity, but to physically analyze it, audit it, and ensure it stays within a safe boundary (i.e. not destroying the planet).  The conception of what makes activity valuable is entirely up to the community itself; As radical capitalists claim, value is subjective, but NE *avoids* attempting to base allocation on this subjective value.
+	Allocation in a VIAAC can be done any way the members agree to do it (as long as they are intercompatible), but we recommend implementing techniques from natural economics.  The goal of natural economics is not to assign exchange value opinions to economic activity, but to physically analyze it, audit it, and ensure it stays within a safe boundary (i.e. not destroying the planet).  The conception of what makes activity valuable is entirely up to the community itself; As radical capitalists claim, value is subjective, but NE *avoids* attempting to base allocation on this subjective value.
 
 Emergy/Exergy Analysis
 -------------------------
