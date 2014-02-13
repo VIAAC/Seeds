@@ -1,0 +1,11 @@
+Contract state machine:
+
+A finite-state machine (FSM) is defined as "an abstract machine that can be in one of a finite number of states. The machine is in only one state at a time; the state it is in at any given time is called the current state. It can change from one state to another when initiated by a triggering event or condition; this is called a transition. A particular FSM is defined by a list of its states, and the triggering condition for each transition." (Wikipedia)
+
+A contract state machine (CSM) would be a set of contracts that have various related, sometimes conflicting, provisions which are active at different times depending on certain conditions or events.  A CSM could be used to reach agreements in cases where each party is unwilling to fully compromise, by agreeing on specific conditions (that may change more than once) where they can compromise.  For example, a business could agree to give X units of product to a VIAAC, provided its revenue is at least Z, otherwise it will give Y units.
+
+Every CSM should contain at least two contracts, Entry and Exit.  The entry contract determines the conditions that will activate the CSM, and the exit contract likewise determines the conditions that will terminate it.  The entry contract can activate on signing, on a certain date, or when specific conditions are met.
+
+A third type, Modification, should be created for untested CSMs to allow in-place modification of the system.  The modification contract would enumerate the individual contracts in the CSM system, and allow by mutual agreement of all signatories to modify this namespace.
+
+Every other contract in the CSM should represent a function or parameter and contain the triggering conditions.  The set of active contracts is the active state.  Signatories should analyze the possible active states to ensure they are in agreement before committing to the contracts.

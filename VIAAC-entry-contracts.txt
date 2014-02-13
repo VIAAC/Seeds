@@ -1,40 +1,53 @@
-Entry contract parameters:
+Entry contract (EC) parameters:
 
-Organization type: 
-	Nonprofit - The organization will remain/become a nonprofit.  Recommended for most organizations.
-	Business - The organization will remain/become a business.  Recommended for organizations supporting tourism.
-	Collective - The organization will remain/become a collective.
-
-Capital ownership: 
-	VO-owned - Child organization's capital is held by the VO.  Recommended for committed businesses.
-	Child organization-owned - Child organization's capital is maintained in its possession.  Recommended for nonprofits.
-	Shared - Child organization's capital is shared by each organization in proportion X% and Y%.  Recommended for reluctant businesses.
-	Rented - Child organization's capital is owned by one organization and rented to the other at $X/(unit).
-
-Employee status: 
-	Employed by child - Employees remain employed by child organization.  Recommended for nonprofits.
-	Volunteer to parent - Employees leave the child organization and volunteer as workers of the VO.
-	Volunteer to clone - Employees leave the child organization and volunteer as workers of a nonprofit "clone" organization.  Recommended for committed businesses.
-	Mixed - Employees reduce their hours on the clock by Y hr/wk to X hr/wk, and volunteer Y hr/wk to the parent or clone.  Recommended for reluctant businesses.
-
-Employee status change: 
-	Keep - Employees will be kept for the initiation of the VO.
-	Opt-in - Employees must opt-in to the status of employment change.  Not opting in is considered a resignation, or a reduction in hours.
-	Opt-out - Employees must opt-out to the status of employment change.  Opting out is considered a resignation, or a reduction in hours.
-	Drop - Employees will be terminated from the organization on initiation of the VO.
-
-Revenue share:
-	Parent cost-only - Revenue to a VIAAC member is kept entirely, except to cover costs of the VIAAC.
-	Profit-only - Revenue to a VIAAC member is kept to cover costs, and the profit given to the VIAAC.
-	Parent - Revenue to a VIAAC member goes entirely to the VIAAC.
-	Child - Revenue to a VIAAC member is kept entirely.
+	Organization type: 
+		Nonprofit - The organization will remain/become a nonprofit.  Recommended for most organizations.
+		Business - The organization will remain/become a business.  Recommended for organizations supporting tourism.
+		Collective - The organization will remain/become a collective.
 	
-Revenue use:
-	Recruitment - Used to increase membership in the VIAAC.
-	Capital - Used to obtain capital for the VIAAC.
-	Wages - Used to pay individual members of the VIAAC.
-Duration: 
-	VO failure - Contract will terminate on failure of the VO.
-	Terminal - Contract will terminate after X years.
+	Capital ownership: 
+		VO-owned - Child organization's capital is held by the VO.  Recommended for committed businesses.
+		Child organization-owned - Child organization's capital is maintained in its possession.  Recommended for nonprofits.
+		Shared - Child organization's capital is shared by each organization in proportion X% and Y%.  Recommended for reluctant businesses.
+		Rented - Child organization's capital is owned by one organization and rented to the other at $X/(unit).
+	
+	Employee status: 
+		Employed by child - Employees remain employed by child organization.  Recommended for nonprofits.
+		Volunteer to parent - Employees leave the child organization and volunteer as workers of the VO.
+		Volunteer to clone - Employees leave the child organization and volunteer as workers of a nonprofit "clone" organization.  Recommended for committed businesses.
+		Mixed - Employees reduce their hours on the clock by Y hr/wk to X hr/wk, and volunteer Y hr/wk to the parent or clone.  Recommended for reluctant businesses.
+	
+	Employee status change: 
+		Keep - Employees will be kept for the initiation of the VO.
+		Opt-in - Employees must opt-in to the status of employment change.  Not opting in is considered a resignation, or a reduction in hours.
+		Opt-out - Employees must opt-out to the status of employment change.  Opting out is considered a resignation, or a reduction in hours.
+		Drop - Employees will be terminated from the organization on initiation of the VO.
+	
+	Revenue share:
+		Parent cost-only - Revenue to a VIAAC member is kept entirely, except to cover costs of the VIAAC.
+		Profit-only - Revenue to a VIAAC member is kept to cover costs, and the profit given to the VIAAC.
+		Parent - Revenue to a VIAAC member goes entirely to the VIAAC.
+		Child - Revenue to a VIAAC member is kept entirely.
+		
+	Revenue use:
+		Recruitment - Used to increase membership in the VIAAC.
+		Capital - Used to obtain capital for the VIAAC.
+		Wages - Used to pay individual members of the VIAAC.
+	Duration: 
+		VO failure - Contract will terminate on failure of the VO.
+		Terminal - Contract will terminate after X years.
+		Conditional - Contract will terminate after condition X.
+	
+	State changes: 
+		Contract systems - A contract system or contract state machine (CSM) is a group of conditional contracts that interact with one another to form a sort of legal finite state machine.
+		Performance measures - A contract condition based on the performance of the VIAAC, the VO, or a specific member organization.
+		Interactive events - A contract condition based on the presence or action of a nearby VIAAC.
 
-State changes: Contract systems, performance measures, interactive events
+	Legalized proportion:
+		Mostly legal - The VIAAC's behavior will be primarily programmed through contract systems.  Recommended for VIAACs with few devoted members.
+		Mostly computational - The VIAAC's behavior will be primarily programmed into its supporting computer systems.  Recommended for VIAACs intended to be responsive or experimental.
+
+Entry contract requirements:
+	Legal consultation: The EC structure should, at some point, be examined by a lawyer to ensure its validity and evaluate whether or not there are types of laws that would invalidate it.
+	EC building tool: A software tool that allows users to easily build ECs and plug in relevant laws from a database of previous progress. It should lower the barriers to entry for new, nearby VIAACs to be created.
+	Recruitment strategy: A reliable strategy to convince organizations of the benefits of entering a VIAAC should be created.

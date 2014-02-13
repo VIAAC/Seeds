@@ -1,17 +1,12 @@
-10 February 2014: VIAAC Planning, Sources
+12 February 2014: VIAAC entry contracts.
 
-Added a failure contingency section to the VIAAC planning document.  After considering corruption and how to deal with it, I decided to grab a number of different studies on the subject.  They are now in a folder marked "sources", and that will contain the scientific literature supporting any documents in the project.
+Started to hash out possible parameters for VIAAC entry contracts.
 
 # On branch master
 # Changes to be committed:
 #   (use "git reset HEAD <file>..." to unstage)
 #
-#	new file:   Sources/corruption-correlates.pdf
-#	new file:   Sources/corruption-decentralization.pdf
-#	new file:   Sources/corruption-governance.pdf
-#	new file:   Sources/corruption-regulatory-compliance.pdf
-#	new file:   Sources/corruption-sousveillance.pdf
-#	new file:   Sources/corruption-telecom-regulation.pdf
+#	new file:   VIAAC-entry-contracts.txt
 #	modified:   VIAAC-planning.txt
 #	modified:   commit_msg.txt
 #
