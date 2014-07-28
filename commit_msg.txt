@@ -1,18 +1,5 @@
-22 June 2014: Datarchy Legal Structures
+28 July 2014: Natural econ book added to version control (encrypted only)
 
-Created the document "datarchy-legal-structures.odt", which aims to lay the foundations for a 'legal programming language'.
+A GPG-encrypted version of the book in progress has been added to version control so I can work on it in multiple locations.
 
-On branch master
-Your branch is up-to-date with 'origin/master'.
-
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-	new file:   datarchy-legal-structures.odt
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	modified:   commit_msg.txt
 
